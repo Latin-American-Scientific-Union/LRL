@@ -70,7 +70,7 @@ El desarrollo y aplicación de terapias CRISPR requiere recursos significativos.
 
 Para evaluar cuán preciso y eficiente es la aplicación del protocolo en un paciente, es necesario refinar el aloritmo analizando y relacionando los resultados de exámenes o investigaciones con CRISPR-Cas9 y modelos de expansión de las células cancerígenas. Se está diseñando y evaluando la mejor aproximación inicial y sus derivadas alternativas para cumplir con este requisito previo, usando modelos de redes neuronales entrenados con datos reales.
 
-### Probabilidad de éxito del Protocolo ΦCRISPR
+### Probabilidad de éxito del Protocolo ΦCRISPR durante y previo a la etapa 3.
 |||
 |-|-|
 |![image](https://github.com/user-attachments/assets/be4422cc-ed8b-43b4-8752-6349a9b5a17e)|![image](https://github.com/user-attachments/assets/22b57ccc-6358-451f-b1b2-8e0b8aff1a23)|
