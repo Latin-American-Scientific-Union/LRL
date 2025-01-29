@@ -23,7 +23,7 @@ Entre sus aplicaciones destacadas se encuentran:
 <br>
 |*Desactivación de oncogenes*|*Reparación de genes supresores de tumores*|*Optimización del sistema inmunitario*|
 |-|-|-|
-|Genes que promueven el crecimiento tumoral.|Como *TP53* o *BRCA1*, que pierden funcionalidad en ciertos cánceres.|Programación de células CAR-T para reconocer y destruir células cancerosas.|
+|Genes que promueven el crecimiento tumoral.|Como *TP53* o *BRCA1*, que pierden funcionalidad en ciertos cánceres.|Programación de células CAR-T (células T con receptor de antígeno quimérico) para reconocer y destruir células cancerosas.|
 
 ---
 
