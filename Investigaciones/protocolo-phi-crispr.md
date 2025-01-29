@@ -1,5 +1,5 @@
 # Protocolo ΦCRISPR
-El cáncer es una de las principales causas de mortalidad a nivel mundial, caracterizado por el crecimiento descontrolado de células que pueden invadir tejidos circundantes y diseminarse a otras partes del cuerpo. La tecnología CRISPR-Cas9, desarrollada como una herramienta de edición genética de alta precisión, ha generado gran expectativa como una posible solución para combatir esta enfermedad.
+El cáncer es una de las principales causas de mortandad a nivel mundial, caracterizado por el crecimiento descontrolado de células que pueden invadir tejidos circundantes y diseminarse a otras partes del cuerpo. La tecnología CRISPR-Cas9, desarrollada como una herramienta de edición genética de alta precisión, ha generado gran expectativa como una posible solución para combatir esta enfermedad.
 
 ### Marco Teórico
 La herramienta CRISPR-Cas9, inicialmente descubierta como parte del sistema inmunitario adaptativo de bacterias y arqueas, ha sido adaptada para la edición genética en organismos superiores. Su mecanismo principal consiste en el uso de una proteína Cas9, guiada por un ARN dirigido (gRNA), para identificar y cortar secuencias específicas de ADN. Este sistema permite modificar genes con una precisión sin precedentes, lo que lo ha convertido en una revolución para la biología molecular y la medicina.
@@ -29,14 +29,16 @@ Entre sus aplicaciones destacadas se encuentran:
 
 ## Inyección localizada de CRISPR-Cas9 en el tratamiento del cáncer
 - CRISPR permite identificar mutaciones específicas asociadas a cada tipo de cáncer y dirigir su acción hacia ellas.
-- Los tratamientos pueden adaptarse al perfil genético del tumor de cada paciente.
-- Al actuar de manera dirigida, minimiza el daño a células sanas.
-- Corrección de mutaciones genéticas que predisponen al desarrollo de ciertos cánceres, como el de mama o colon hereditario.
+- Los oncogenes **no** destruyen los genes BRCA1 ni TP53, sino que las "**desactivan**".
+- Para que CRISPR pueda identificar y editar las cadenas de ADN afectadas por el tumor, es necesario diseñar y modificar los parámetros del mismo.
+- El desarrollo de nuevas variantes (como Cas12 o Cas13) podría mejorar la especificidad y reducir los efectos fuera del objetivo.
+- Es necesario acelerar los ensayos clínicos en humanos para validar la seguridad y eficacia de CRISPR en diferentes tipos de cáncer.
+- CRISPR podría integrarse con otras terapias, como la inmunoterapia o la quimioterapia, para atacar diferentes aspectos del tumor simultáneamente.
 
 ---
 
 ## Limitaciones
-Se están estudiando estrategias para resolver los desafíos e implicaciones de este protocolo.
+Se están evaluando estrategias para mitigar las implicaciones de este protocolo, mencionadas a continuación:
 
 - **Heterogeneidad del cáncer**<br>
 El cáncer no es una enfermedad única, sino un conjunto de más de 200 patologías con causas genéticas y ambientales variadas. Además, un mismo tumor puede contener subpoblaciones celulares con mutaciones distintas, dificultando un tratamiento único.
@@ -55,20 +57,9 @@ El desarrollo y aplicación de terapias CRISPR requiere recursos significativos.
 
 ---
 
-## Complementos potenciales
-- CRISPR podría integrarse con otras terapias, como la inmunoterapia o la quimioterapia, para atacar diferentes aspectos del tumor simultáneamente.
-
-- El desarrollo de nuevas variantes de CRISPR (como Cas12 o Cas13) podría mejorar la especificidad y reducir los efectos fuera del objetivo.
-
-- La aplicación controlada en tiempo real podría limitar riesgos y garantizar un tratamiento eficaz.
-
-- Es necesario acelerar los ensayos clínicos en humanos para validar la seguridad y eficacia de CRISPR en diferentes tipos de cáncer.
-
----
-
 ## Modelo de predictibilidad probabilística
 
-Para evaluar cuán preciso y eficiente es la aplicación del protocolo en un paciente, es necesario refinar el aloritmo analizando y relacionando los resultados de exámenes o investigaciones con CRISPR-Cas9 y modelos de expansión de las células cancerígenas. Se está diseñando y evaluando la mejor aproximación inicial y sus derivadas alternativas para cumplir con este requisito previo, usando modelos de redes neuronales entrenados con datos reales.
+Para evaluar cuán preciso y eficiente es la aplicación del protocolo en un paciente, es necesario refinar el aloritmo analizando y relacionando los resultados de exámenes o investigaciones con CRISPR-Cas9 y modelos de expansión de las células cancerígenas. Se está diseñando y evaluando la mejor aproximación inicial y sus derivadas alternativas para cumplir con este requisito previo, usando modelos de redes neuronales entrenados con datos simulados.
 
 ### Probabilidad de éxito del Protocolo ΦCRISPR durante y previa a la etapa 3.
 |Tasa de mutación|RBC|
