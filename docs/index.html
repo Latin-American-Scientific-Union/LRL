@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omega Research Labs</title>
+    <!-- Cargar fuente Montserrat desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos globales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            height: 100vh;
+            background-image: url('https://mrwallpaper.com/images/hd/earth-surface-in-space-gps9axxa747nj3ra.jpg'); /* Cambia esto por el enlace correcto de la imagen */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            overflow: hidden; /* Eliminar el desplazamiento */
+        }
+
+        /* Barra de navegación */
+        nav {
+            position: absolute;
+            top: -20px;
+            left: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            padding: 10px; /* Mover toda la barra de navegación 600px a la derecha */
+        }
+
+        nav a {
+            font-weight: 100;
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+            margin-left: 300px; /* Separación entre el logo y el texto del enlace */
+        }
+
+        /* Contenedor de texto */
+        .text-container {
+            text-align: center;
+            margin-left: -40%; /* Mover 400px a la izquierda */
+        }
+
+        .text-container h1 {
+            font-weight: 700;
+            font-size: 26.6px;
+            margin: 0;
+        }
+
+        .text-container p {
+            font-weight: 200;
+            font-size: 16px;
+            margin: -60px;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <!-- Barra de navegación -->
+    <nav>
+        <!-- Enlace al logo -->
+        <a href="index.html">
+            <img src="logo.png" alt="Logo" width="140" height="140">
+        </a>
+        <a href="#">Protocolo ΦCRISPR</a>
+    </nav>
+
+    <!-- Contenedor de texto -->
+    <div class="text-container">
+        <h1>Omega Research Labs</h1>
+        <p>Inspirados por un futuro más innovador</p>
+    </div>
+
+
 </body>
 </html>
