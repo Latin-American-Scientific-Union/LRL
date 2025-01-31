@@ -6,6 +6,7 @@
     <title>Omega Research Labs</title>
     <!-- Cargar fuente Montserrat desde Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
         /* Estilos globales */
         body {
@@ -26,40 +27,44 @@
 
         /* Barra de navegación */
         nav {
-            position: absolute;
-            top: -20px;
-            left: 10%;
+            position: relative;
+            top: -45%;
+            left: 14.7%;
             display: flex;
             align-items: center;
             justify-content: flex-start;
             width: 100%;
-            padding: 10px; /* Mover toda la barra de navegación 600px a la derecha */
         }
 
-        nav a {
-            font-weight: 100;
-            font-size: 15px;
+        a {
+            position: relative;
+            font-weight: 200;
+            font-size: 17px;
+            left: 40%;
             text-decoration: none;
             color: white;
-            margin-left: 300px; /* Separación entre el logo y el texto del enlace */
+            padding: 1%;
         }
 
         /* Contenedor de texto */
         .text-container {
             text-align: center;
-            margin-left: -40%; /* Mover 400px a la izquierda */
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 50%;
+            left: 10%;
         }
 
         .text-container h1 {
             font-weight: 700;
             font-size: 26.6px;
-            margin: 0;
         }
 
         .text-container p {
             font-weight: 200;
             font-size: 16px;
-            margin: -60px;
+            margin: -75px;
         }
     </style>
 </head>
@@ -68,10 +73,10 @@
     <!-- Barra de navegación -->
     <nav>
         <!-- Enlace al logo -->
-        <a href="index.html">
-            <img src="logo.png" alt="Logo" width="140" height="140">
-        </a>
-        <a href="#">Protocolo ΦCRISPR</a>
+        <img src="logo.png" alt="Logo" width="140">
+        <a href="#">Investigaciones</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Contacto</a>
     </nav>
 
     <!-- Contenedor de texto -->
