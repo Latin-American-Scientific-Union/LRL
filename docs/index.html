@@ -14,14 +14,14 @@
             padding: 0;
             font-family: 'Montserrat', sans-serif;
             height: 100vh;
+            min-height: 100vh;
             background-image: url('https://mrwallpaper.com/images/hd/earth-surface-in-space-gps9axxa747nj3ra.jpg'); /* Cambia esto por el enlace correcto de la imagen */
             background-size: cover;
             background-position: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            background-repeat: no-repeat;
             color: white;
             overflow-x: hidden; /* Eliminar el desplazamiento */
+            z-index: 10;
         }
 
         /* Barra de navegación */
@@ -46,7 +46,7 @@
             margin: 0;
             padding: 0;
             position: absolute;
-            top: 40%;
+            top: 30%;
             left: 10%;
         }
 
@@ -195,31 +195,34 @@
     </style>
 </head>
 <body>
+    <nav>
+        <button class="menu-btn" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+        <img src="logo.png" style="" width="50px">
+    </nav>
+
     <!-- Contenedor de texto -->
     <div class="text-container fade-up">
         <h1>UCC Research Laboratories</h1>
-        <p><br><br><br><br>UCCRL es una organización derivada de UCC Aerospace (UCCA) para desarrollar y<br>perfeccionar tecnologías físicas y bioquímicas derivadas de otras ya existentes, con objetivo<br>de comercializarlas o usarlas para el beneficio de la región latinoamericana. Esto sirve<br>para mejorar la calidad de los prototipos de UCCA o para innovar tecnologías.<br><br>Cada experimento realizado pasa a través de una exhausto análisis e investigación por UCCRL<br>y revisión por expertos y docentes. A su vez, se recopilan datos y afinan parámetros para<br>optimizar el rendimiento.</p>
+        <p><br><br><br><br>UCCRL es una organización independiente derivada de UCC Aerospace (UCCA), dedicada al desarrollo<br>y perfeccionamiento de tecnologías físicas y bioquímicas basadas en innovaciones previas. Su objetivo es<br>comercializarlas o aplicarlas en beneficio de la región latinoamericana, contribuyendo tanto a la mejora<br>de los prototipos de UCCA como a la creación de nuevas tecnologías.<br><br>Cada experimento realizado es sometido a un riguroso análisis e investigación por parte de UCCRL,<br>seguido de una revisión por expertos y docentes. Además, se recopilan datos y se ajustan parámetros<br>para optimizar el rendimiento de las tecnologías desarrolladas.            
     </div>
-    <button class="menu-btn" onclick="toggleMenu()">
-        <div></div>
-        <div></div>
-        <div></div>
-    </button>
 
     <div class="menu-container">
         <ul>
-            <li><a href="">Investigaciones</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="#">Investigaciones</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="https://github.com/EzeGamer135/UCC-Research-Laboratories">Repositorio GitHub</a></li>
         </ul>
     </div>
 
     <div class="overlay" onclick="toggleMenu()"></div>
-
     <script>
         function toggleMenu() {
             document.body.classList.toggle("menu-open");
         }
-    </script>
-    <img src="QHDt-1OZr_1256x620__2.jpg" style="position: relative; top: 100%; height: 100%;">
+    </script>    
 </body>
 </html>
