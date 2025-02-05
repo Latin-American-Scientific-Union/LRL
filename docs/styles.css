@@ -60,7 +60,7 @@ div p {
     left: -330px; /* Oculto por defecto */
     width: 250px;
     height: 100vh;
-    background: rgba(50, 50, 50, 0.95);
+    background: rgba(0, 0, 0, 0.95);
     transition: left 0.2s ease-in-out;
     display: flex;
     flex-direction: column;
@@ -202,4 +202,10 @@ table, th, td {
 th, td {
     padding: 10px;
     text-align: center;
+}
+
+nav img {
+    position: relative;
+    width: 70px;
+    margin-right: 10px;
 }
