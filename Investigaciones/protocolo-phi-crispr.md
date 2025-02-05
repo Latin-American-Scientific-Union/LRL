@@ -59,7 +59,7 @@ El desarrollo y aplicación de terapias CRISPR requiere recursos significativos.
 
 ## Modelo de predictibilidad probabilística
 
-Para evaluar cuán preciso y eficiente es la aplicación del protocolo en un paciente, es necesario refinar el aloritmo analizando y relacionando los resultados de exámenes o investigaciones con CRISPR-Cas9 y modelos de expansión de las células cancerígenas. Se está diseñando y evaluando la mejor aproximación inicial y sus derivadas alternativas para cumplir con este requisito previo, usando modelos de redes neuronales entrenados con datos simulados.
+Para evaluar cuán preciso y eficiente es la aplicación del protocolo en un paciente, es necesario refinar el algoritmo analizando y relacionando los resultados de exámenes o investigaciones con CRISPR-Cas9 y modelos de expansión de las células cancerígenas. Se está diseñando y evaluando la mejor aproximación inicial y sus derivadas alternativas para cumplir con este requisito previo, usando modelos de redes neuronales entrenados con datos simulados.
 
 ### Probabilidad de éxito del Protocolo ΦCRISPR durante y previa a la etapa 3.
 |Tasa de mutación|RBC|
