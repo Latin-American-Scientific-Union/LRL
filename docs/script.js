@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("Investigaciones/protocolo-phi-crispr.md") // Ojo con la ruta
+    fetch("../Investigaciones/protocolo-phi-crispr.md")
         .then(response => {
             if (!response.ok) {
                 throw new Error("No se pudo cargar el archivo Markdown.");
