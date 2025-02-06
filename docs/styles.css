@@ -260,3 +260,14 @@ input, textarea {
 .btn-submit:hover {
     background-color: #218838;
 }
+.markdown-body {
+    background: transparent !important;
+    color: rgb(255, 255, 255) !important;
+    position: relative;
+    top: 40px;
+    padding: 20px;
+}
+.markdown-body h1 { font-size: 32px !important; }
+.markdown-body h2 { font-size: 28px !important; }
+.markdown-body h3 { font-size: 24px !important; }
+.markdown-body p  { font-size: 19px !important; }

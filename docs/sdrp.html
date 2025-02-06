@@ -6,6 +6,10 @@
     <title>sdrp.md</title>
     <!-- Cargar fuente Montserrat desde Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <script src="functions.js"></script>
@@ -39,8 +43,23 @@
     </div>
     <div class="overlay" onclick="toggleMenu()"></div>
 
-    <div id="content" class="markdown-body fade-up" style="position: relative; top: 20px">Cargando contenido...</div>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="sdrp.js"></script>
+    <div id="markdown-container" class="markdown-body">Cargando contenido...</div>
+
+    <script>
+        async function loadMarkdownFromGitHub(repoOwner, repoName, filePath) {
+            const url = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/${filePath}`;
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error("No se pudo cargar el archivo.");
+                const markdown = await response.text();
+                document.getElementById("markdown-container").innerHTML = marked.parse(markdown);
+            } catch (error) {
+                document.getElementById("markdown-container").innerHTML = "<p>Error al cargar el archivo.</p>";
+            }
+        }
+
+        // Cambia estos valores por los de tu repositorio y archivo
+        loadMarkdownFromGitHub("ezegamer135", "UCC-Research-Laboratories", "Investigaciones/sdrp.md");
+    </script>
 </body>
 </html>
