@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCCRL - Contacto</title>
+    <!-- Cargar fuente Montserrat desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="functions.js"></script>
+    <style>
+        /* Asegura que la página ocupe toda la pantalla y elimina márgenes y padding */
+        html, body {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 200;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+        }
+
+        /* Contenedor centrado con posición absoluta */
+        .container {
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 90%;
+            text-align: center;
+            
+            /* Centrando con posición absoluta */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Esencial en todas las páginas (barra de navegación) -->
+    <nav>
+        <img src="logo.png">
+        <button class="menu-btn" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+    </nav>
+    <div class="menu-container">
+        <ul>
+            <li><a href="index.html">Página principal</a></li>
+            <li><a href="research.html">Investigaciones</a></li>
+            <li><a href="https://github.com/EzeGamer135/UCC-Research-Laboratories">Repositorio GitHub</a></li>
+        </ul>
+    </div>
+    <div class="overlay" onclick="toggleMenu()"></div>
+
+    <!-- Contacto -->
+    <div class="container">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -11,6 +11,8 @@ body {
     color: white;
     overflow-x: hidden; /* Eliminar el desplazamiento */
     z-index: 10;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Barra de navegación */
@@ -125,7 +127,7 @@ div p {
 .menu-btn div {
     width: 24px;
     height: 1px;
-    background: white;
+    background: rgb(255, 255, 255);
     transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
@@ -205,7 +207,7 @@ th, td {
 }
 
 nav img {
-    position: relative;
+    display: flex;
     width: 70px;
     margin-right: 10px;
 }
@@ -213,9 +215,48 @@ nav img {
 #content {
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #333;
+    padding: 50px;
+    color: #ffffff;
+}
+
+/* Estilos de las etiquetas y campos de entrada */
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: 200;
+    flex: 1;
+    text-align: left;
+}
+
+/* Ajustar los campos de entrada y textarea */
+input, textarea {
+    width: 65%;
+    padding: 8px;
+    background-color: #444; /* Gris oscuro */
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+/* Botón de envío */
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #218838;
 }
