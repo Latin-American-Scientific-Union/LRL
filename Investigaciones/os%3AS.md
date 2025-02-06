@@ -30,7 +30,7 @@ Las velas solares modulares deben estar hechas de materiales extremadamente lige
   2. Coordinación Precisa entre Elementos del Sistema
 El coordinado funcionamiento entre las catapultas orbitales (Alpha y Beta), la órbita de Venus, el rendezvous en L2 y la órbita elíptica del sistema requiere una planificación y sincronización orbital extremadamente precisa. Este desafío puede superarse con algoritmos de navegación avanzados y sistemas de control orbital.
   3. Implementación de Sistemas de Comunicación
-La comunicación entre los segmentos de la vela solar es esencial para asegurar que todos trabajen de manera eficiente y que los ajustes dinámicos de la vela solar se realicen de forma correcta. Esto exigirá el desarrollo de un sistema de comunicación robusto.
+La comunicación entre los segmentos de la vela solar es esencial para asegurar que todos trabajen de manera eficiente y que los ajustes dinámicos de la vela solar se realicen de forma correcta. Esto exigirá el desarrollo de un sistema de comunicación robusto. En este caso, la red "Skyscraper One".
 
 ## 5. Plan de Implementación
   - Fase 1: Investigación y Desarrollo
