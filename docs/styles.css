@@ -264,10 +264,18 @@ input, textarea {
     background: transparent !important;
     color: rgb(255, 255, 255) !important;
     position: relative;
+    align-items: center;
     top: 40px;
-    padding: 20px;
+    padding: 30px;
 }
 .markdown-body h1 { font-size: 32px !important; }
 .markdown-body h2 { font-size: 28px !important; }
 .markdown-body h3 { font-size: 24px !important; }
 .markdown-body p  { font-size: 19px !important; }
+
+.markdown-body table {
+    width: max-content;
+    max-width: 100%;
+    overflow-x: auto;
+    display: block;
+}
