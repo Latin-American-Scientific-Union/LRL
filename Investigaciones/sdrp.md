@@ -1,0 +1,1 @@
+El Sistema de Detección y Reconocimiento de Patologías es un complemento de Phi-CRISPR. Se usará para aproximar cuán efectivo será el tratamiento mediante análisis de IA en una radiografía o TAC, basado en modelos de redes neuronales.
