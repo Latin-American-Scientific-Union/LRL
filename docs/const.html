@@ -57,8 +57,20 @@
                 const response = await fetch(url);
                 if (!response.ok) throw new Error("No se pudo cargar el archivo.");
                 const markdown = await response.text();
-                document.getElementById("markdown-container").innerHTML = marked.parse(markdown);
-
+                const parsedMarkdown = marked.parse(markdown);
+    
+                // URL base del repositorio en GitHub
+                const repoUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/`;
+    
+                // Reemplazar imágenes con rutas relativas por URLs absolutas
+                const updatedMarkdown = parsedMarkdown.replace(/<img src="(?!http)(.*?)"/g, (match, path) => {
+                    const fixedPath = path.replace("../", "");  
+                    return `<img src="${repoUrl}${fixedPath}" style="max-width: 100%; height: auto;">`;
+                });
+    
+                // Insertar el Markdown corregido en el contenedor
+                document.getElementById("markdown-container").innerHTML = updatedMarkdown;
+    
                 // Envolver todas las tablas dentro de un contenedor con scroll
                 document.querySelectorAll("table").forEach(table => {
                     const wrapper = document.createElement("div");
@@ -66,7 +78,7 @@
                     table.parentNode.insertBefore(wrapper, table);
                     wrapper.appendChild(table);
                 });
-
+    
                 // Renderizar fórmulas LaTeX con KaTeX
                 renderMathInElement(document.getElementById("markdown-container"), {
                     delimiters: [
@@ -74,14 +86,14 @@
                         {left: "$", right: "$", display: false}  // Fórmulas en línea
                     ]
                 });
-
+    
             } catch (error) {
                 document.getElementById("markdown-container").innerHTML = "<p>Error al cargar el archivo.</p>";
             }
         }
-
+    
         // 🔹 Cambia estos valores por los de tu repositorio
         loadMarkdownFromGitHub("ezegamer135", "UCC-Research-Laboratories", "Investigaciones/const.md");
-    </script>
+    </script>    
 </body>
 </html>
