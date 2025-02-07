@@ -262,20 +262,29 @@ input, textarea {
 }
 
 .markdown-body {
-    background: transparent !important;
-    color: rgb(255, 255, 255) !important;
     position: relative;
-    align-items: center;
-    top: 40px;
+    top: 30px;
+    background: transparent;
     padding: 30px;
 }
+
 .markdown-body h1 { font-size: 32px !important; }
 .markdown-body h2 { font-size: 28px !important; }
 .markdown-body h3 { font-size: 24px !important; }
 .markdown-body p  { font-size: 19px !important; }
-.markdown-body table {
-    width: max-content;
-    max-width: 100%;
+
+.markdown-body th, .markdown-body td {
+    padding: 8px;
+    border: 1px solid #dddddd34;
+    white-space: nowrap; /* Evita que el contenido se divida en varias líneas */
+}
+
+.markdown-body tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Agregar un contenedor con desplazamiento horizontal */
+.table-container {
     overflow-x: auto;
-    display: block;
+    max-width: 100%;
 }
