@@ -62,23 +62,13 @@
                 // URL base del repositorio en GitHub
                 const repoUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/`;
     
-                // Reemplazar imágenes con rutas relativas por URLs absolutas
-                const updatedMarkdown = parsedMarkdown.replace(/<img src="(?!http)(.*?)"(?: alt="(.*?)")?>/g, (match, path, alt) => {
-                    const fixedPath = path.replace("../", "");  
+                // Reemplazar imágenes con rutas relativas por URLs absolutas, sin agregar `alt="image"`
+                const updatedMarkdown = parsedMarkdown.replace(/<img src="(?!http)([^"]*)"(?: alt="([^"]*)")?\s*\/?>/g, (match, path, alt) => {
+                    const fixedPath = path.replace("../", "");
                     const altText = alt ? `alt="${alt}"` : ""; // Mantiene alt solo si existe
                     return `<img src="${repoUrl}${fixedPath}" ${altText} style="max-width: 100%; height: auto;">`;
                 });
-                marked.use({
-                    renderer: {
-                        image(href, title, text) {
-                            const repoUrl = "https://raw.githubusercontent.com/ezegamer135/UCC-Research-Laboratories/main/"; // Ajusta esto según tu repo
-                            const fixedPath = href.startsWith("../") ? href.replace("../", "") : href;
-                            const altText = text ? `alt="${text}"` : ""; // Usa el alt solo si existe
-                            return `<img src="${repoUrl}${fixedPath}" ${altText} style="max-width: 100%; height: auto;">`;
-                        }
-                    }
-                });
-
+    
                 // Insertar el Markdown corregido en el contenedor
                 document.getElementById("markdown-container").innerHTML = updatedMarkdown;
     
