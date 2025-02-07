@@ -9,19 +9,19 @@ La humanidad se encuentra ante una oportunidad única para transformar la explor
 
 El sistema de lanzamiento se basa en una catapulta orbital para lanzar las cargas al espacio. Este sistema de lanzamiento, inspirado en la tecnología de catapultas de aceleración rotacional, permitirá un impulso inicial sin combustibles tradicionales. La energía necesaria para el lanzamiento provendrá de electricidad y energía cinética almacenada, lo que minimiza el uso de propelentes y reduce costos significativamente. La catapulta orbital Alpha estará ubicada en la órbita baja terrestre (LEO) para aprovechar las condiciones de aceleración orbital.
 
-  3. Rendezvous en Órbita (Catapulta Alpha y Beta)
+  2. Rendezvous en Órbita (Catapulta Alpha y Beta)
 
 Una vez lanzadas las cargas desde la catapulta Alpha, estas realizarán un rendezvous con una estación de ensamblaje ubicada en el punto Lagrange 2 (L2). Este punto es ideal para acoplar las naves modulares y formar una vela solar gigante. En este proceso, se coordinarán tiempos precisos para asegurar la sincronización orbital entre la Tierra, la Luna, la catapulta Beta en L2, y la órbita de Venus. La catapulta Beta ubicada en L2 jugará un papel crucial en ajustar las órbitas de los módulos para alcanzar un apogeo en L2 y un perigeo cercano al Sol (en la órbita de Mercurio).
 
-  4. Utilización de la Gravedad de Venus
+  3. Utilización de la Gravedad de Venus
 
 Una vez en la órbita de L2, el sistema aprovechará la gravedad de Venus para modificar la órbita elíptica de las cargas y hacer que el perigeo de la nave se acerque al Sol. Este paso será clave para incrementar la velocidad de la nave sin necesidad de utilizar propelente adicional, utilizando la asistencia gravitacional de Venus.
 
-  5. Formación Modular y Comunicación Entre Segmentos
+  4. Formación Modular y Comunicación Entre Segmentos
   
 Las naves modulares se ensamblarán en L2 para formar una vela solar gigante, capaz de utilizar la energía solar para impulsar la nave a altas velocidades. Cada segmento de la vela solar tendrá la capacidad de comunicarse con el núcleo de la nave y con otros segmentos para ajustar dinámicamente la orientación de la vela, maximizando el empuje solar. Esto permitirá optimizar continuamente el rendimiento del sistema en función de la posición de la nave y la radiación solar disponible.
 
-  6. Escalabilidad y Expansión
+  5. Escalabilidad y Expansión
   
 El sistema es altamente escalable, lo que significa que se podrán añadir módulos adicionales a medida que se necesiten para realizar misiones más grandes o viajar a distancias mayores. Esta capacidad de expansión y modularidad permite que el sistema sea adecuado para proyectos de largo alcance.
 
@@ -30,11 +30,11 @@ El sistema es altamente escalable, lo que significa que se podrán añadir módu
 
 El sistema permite lanzar cargas al espacio con mínima utilización de propelente, aprovechando principalmente la energía cinética de la catapulta y la radiación solar para propulsar las naves. Esto no solo reduce los costos operativos sino que también elimina la necesidad de combustible tradicional en el espacio profundo, lo que aumenta la eficiencia energética.
 
-  3. Exploración Interestelar
+  2. Exploración Interestelar
   
 Gracias a la capacidad de alcanzar velocidades cercanas a la luz, este sistema permitirá realizar misiones interplanetarias y explorar otras estrellas, lo que marca un hito en la historia de la humanidad. Este avance nos permitirá transitar a través de las estrellas de una manera nunca antes pensada.
 
-  4. Escalabilidad y Flexibilidad
+  2. Escalabilidad y Flexibilidad
   
 La estructura modular del sistema permite adaptarse a diferentes tipos de misiones, desde el envío de cargas pequeñas hasta el transporte de cargas más grandes a destinos más lejanos. La escalabilidad es una de las mayores ventajas de este sistema, permitiendo un crecimiento exponencial a medida que la tecnología avance.
 
@@ -43,11 +43,11 @@ La estructura modular del sistema permite adaptarse a diferentes tipos de mision
      
 Las velas solares modulares deben estar hechas de materiales extremadamente ligeros, resistentes y flexibles para soportar las condiciones del espacio profundo y las fuerzas de aceleración de la catapulta orbital. El desarrollo de estos materiales es un desafío crítico y esencial para el éxito del proyecto.
 
-  3. Coordinación Precisa entre Elementos del Sistema
+  2. Coordinación Precisa entre Elementos del Sistema
 
 El coordinado funcionamiento entre las catapultas orbitales (Alpha y Beta), la órbita de Venus, el rendezvous en L2 y la órbita elíptica del sistema requiere una planificación y sincronización orbital extremadamente precisa. Este desafío puede superarse con algoritmos de navegación avanzados y sistemas de control orbital.
 
-  4. Implementación de Sistemas de Comunicación
+  3. Implementación de Sistemas de Comunicación
   
 La comunicación entre los segmentos de la vela solar es esencial para asegurar que todos trabajen de manera eficiente y que los ajustes dinámicos de la vela solar se realicen de forma correcta. Esto exigirá el desarrollo de un sistema de comunicación robusto. En este caso, la red "Skyscraper One".
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>os%3AS.md</title>
+    <title>const.md</title>
     <!-- Cargar fuente Montserrat desde Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;700&display=swap" rel="stylesheet">
 
@@ -13,6 +13,11 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <script src="functions.js"></script>
+    <!-- KaTeX CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <!-- KaTeX JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
     <style>
         body {
             background-color: black;
@@ -53,12 +58,29 @@
                 if (!response.ok) throw new Error("No se pudo cargar el archivo.");
                 const markdown = await response.text();
                 document.getElementById("markdown-container").innerHTML = marked.parse(markdown);
+
+                // Envolver todas las tablas dentro de un contenedor con scroll
+                document.querySelectorAll("table").forEach(table => {
+                    const wrapper = document.createElement("div");
+                    wrapper.classList.add("table-container");
+                    table.parentNode.insertBefore(wrapper, table);
+                    wrapper.appendChild(table);
+                });
+
+                // Renderizar fórmulas LaTeX con KaTeX
+                renderMathInElement(document.getElementById("markdown-container"), {
+                    delimiters: [
+                        {left: "$$", right: "$$", display: true}, // Fórmulas en bloque
+                        {left: "$", right: "$", display: false}  // Fórmulas en línea
+                    ]
+                });
+
             } catch (error) {
                 document.getElementById("markdown-container").innerHTML = "<p>Error al cargar el archivo.</p>";
             }
         }
 
-        // Cambia estos valores por los de tu repositorio y archivo
+        // 🔹 Cambia estos valores por los de tu repositorio
         loadMarkdownFromGitHub("ezegamer135", "UCC-Research-Laboratories", "Investigaciones/const.md");
     </script>
 </body>
