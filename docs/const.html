@@ -63,9 +63,10 @@
                 const repoUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/`;
     
                 // Reemplazar imágenes con rutas relativas por URLs absolutas
-                const updatedMarkdown = parsedMarkdown.replace(/<img src="(?!http)(.*?)" alt="(.*?)">/g, (match, path, alt) => {
+                const updatedMarkdown = parsedMarkdown.replace(/<img src="(?!http)(.*?)"(?: alt="(.*?)")?>/g, (match, path, alt) => {
                     const fixedPath = path.replace("../", "");  
-                    return `<img src="${repoUrl}${fixedPath}" alt="${alt}" style="max-width: 100%; height: auto;">`;
+                    const altText = alt ? `alt="${alt}"` : ""; // Mantiene alt solo si existe
+                    return `<img src="${repoUrl}${fixedPath}" ${altText} style="max-width: 100%; height: auto;">`;
                 });
     
                 // Insertar el Markdown corregido en el contenedor
