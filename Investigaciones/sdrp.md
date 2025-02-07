@@ -1,1 +1,2 @@
-El Sistema de Detección y Reconocimiento de Patologías es un complemento del Protocolo ΦCRISPR. Se usará para aproximar cuán efectivo será el tratamiento mediante análisis de IA en una radiografía o TAC, basado en modelos de redes neuronales.
+# Sistema de Detección y Reconocimiento de Patologías
+El SDRP es un software de complemento del Protocolo ΦCRISPR. Se usará para aproximar cuán efectivo será el tratamiento mediante análisis de IA en una radiografía o TAC, basado en modelos de redes neuronales.
