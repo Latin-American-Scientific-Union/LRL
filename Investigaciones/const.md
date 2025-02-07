@@ -6,4 +6,4 @@ Asimismo, la distribución angular entre los satélites se obtiene dividiendo el
 
 Este valor coincide con la propiedad fundamental de los triángulos, en los cuales la suma de los ángulos internos es siempre de 180°. De esta manera, la disposición de los satélites en la constelación mantiene una estructura triangular estable, optimizando la cobertura de comunicación y la sincronización de datos en todo momento.
 
-![Image](../docs/image.png)
+![Image](image.png)
