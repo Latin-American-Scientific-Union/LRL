@@ -5,7 +5,7 @@ Este informe presenta una propuesta innovadora para la creación de un sistema d
 Este proyecto consistirá de una interacción coordinada de 3 conceptos: Lanzamiento por Centrifugación Acumulada (LCA), Constelación Geoestacionaria Triple (CGT: Constelación de satélites de retransmisión diseñados para facilitar la comunicación entre las catapultas espaciales y el Control de Misión, así como para permitir la intercomunicación entre las propias centrifugadoras) y Velas Solares. Trabajando en conjunto, tendremos el método de lanzamiento más eficiente ya que apenas se gastará algo de combustible monopropelente.
 
 
-![CGT](docs/image.png)
+![GSO_relay](docs/GSO_relay.png)
 ![OS:S](docs/image2.png)
 
 UCC Aerospace trabaja en conjunto con UCC Research Laboratories para llevar a cabo el proyecto: Open Skies: SUNBURST.
@@ -25,7 +25,7 @@ UCC Aerospace trabaja en conjunto con UCC Research Laboratories para llevar a ca
 4. Se posicionará el carguero (aún sin nombre) vacío de carga en la Alpha y comenzará a girar para calcular cuánto tiempo le toma acumular la velocidad necesaria.
 
 5. Se esperará hasta la siguiente ventana de lanzamiento para coordinar las catapultas y lanzar el carguero la cantidad de horas (antes) que se registró en la prueba.
-  - Tendrá aletas para estabilizarse sin usar energía eléctrica
+  - Tendrá aletas para estabilizarse sin usar energía eléctrica.
   - Tendrá un tanque pequeño de monopropelente para reajustar la trayectoria y no desviarse de Beta.
   - El monopropelente restante se almacenará en Beta y se desacoplará para dejarse caer y reentrar en la atmósfera para ser recuperado mediante un sistema de guiado por rejillas aerodinámicas y paracaídas.
 

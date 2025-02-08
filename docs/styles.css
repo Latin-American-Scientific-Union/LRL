@@ -192,10 +192,7 @@ div p {
 
 table {
     position: relative;
-    width: 70%;
-    text-align: center;
-    margin: 10.1%;
-    top: 25%;
+    width: 100%;
   }
 table, th, td {
     border: 1px solid aliceblue;
