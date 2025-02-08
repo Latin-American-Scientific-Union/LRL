@@ -5,7 +5,8 @@ Este informe presenta una propuesta innovadora para la creación de un sistema d
 Este proyecto consistirá de una interacción coordinada de 3 conceptos: Lanzamiento por Centrifugación Acumulada (LCA), Constelación Geoestacionaria Triple (CGT: Constelación de satélites de retransmisión diseñados para facilitar la comunicación entre las catapultas espaciales y el Control de Misión, así como para permitir la intercomunicación entre las propias centrifugadoras) y Velas Solares. Trabajando en conjunto, tendremos el método de lanzamiento más eficiente ya que apenas se gastará algo de combustible monopropelente.
 
 
-![image](docs/image.png)
+![CGT](docs/image.png)
+![OS:S](docs/image2.png)
 
 UCC Aerospace trabaja en conjunto con UCC Research Laboratories para llevar a cabo el proyecto: Open Skies: SUNBURST.
 
