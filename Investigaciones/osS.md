@@ -2,12 +2,13 @@
 Este informe presenta una propuesta innovadora para la creación de un sistema de velas solares modulares que permitirá la exploración interestelar de manera eficiente y escalable. El sistema se basa en la acumulación de pequeñas cargas lanzadas a la órbita, que se acoplan para formar una vela solar de dimensiones kilométricas. Este sistema utilizará una catapulta orbital para lanzar cargas en órbita, aprovechando la gravedad planetaria y el empuje solar para alcanzar velocidades relativistas, permitiendo la exploración de distancias astronómicas, con una eficiencia y escalabilidad sin precedentes.
 
 ## Preparativos, resumen
-[![model](https://img.shields.io/badge/ipynb-model__simulation-red)](https://colab.research.google.com/drive/1z2EWUpaRVfWeS2A-auSQY0NR4HsEb4ra?usp=sharing)
+
+[![model](https://img.shields.io/badge/ipynb-model-red)](https://colab.research.google.com/drive/1z2EWUpaRVfWeS2A-auSQY0NR4HsEb4ra?usp=sharing)
+
 Este proyecto consistirá de una interacción coordinada de 3 conceptos: Lanzamiento por Centrifugación Acumulada (LCA), Constelación Geoestacionaria Triple (CGT: Constelación de satélites de retransmisión diseñados para facilitar la comunicación entre las catapultas espaciales y el Control de Misión, así como para permitir la intercomunicación entre las propias centrifugadoras) y Velas Solares. Trabajando en conjunto, tendremos el método de lanzamiento más eficiente ya que apenas se gastará algo de combustible monopropelente.
 
-
-![GSO_relay](docs/GSO_relay.png)
-![OS:S](docs/image2.png)
+<img src="docs/GSO_relay.png" alt="Alt Text" width="60&">
+<img src="docs/image2.png" alt="Alt Text" width="60%">
 
 UCC Aerospace trabaja en conjunto con UCC Research Laboratories para llevar a cabo el proyecto: Open Skies: SUNBURST.
 
