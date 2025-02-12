@@ -11,7 +11,7 @@ Este proyecto consistirá de una interacción coordinada de 3 conceptos: Lanzami
 UCC Aerospace trabaja en conjunto con UCC Research Laboratories para llevar a cabo el proyecto: Open Skies: SUNBURST.
 
 1. Construir la primera centrifugadora, también conocida como "Catapulta Alpha" en Uruguay.
-  - Tendrá un sistema eléctrico para hacerla rotar a 47,2 rad/s (igual que Beta).
+  - Tendrá un sistema eléctrico para hacerla rotar a muy altas velocidades (igual que Beta).
 
 2. Se lanzará un vehículo de UCC Aerospace que pueda transportar una centrifugadora idéntica a la que se posicionará en Tierra. Esa centrifugadora tiene el identificador de "Catapulta Beta".
   - Se ubicará a 150 km.
